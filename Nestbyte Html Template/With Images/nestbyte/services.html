@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Nistbyte - Searvice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/tabanimation.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/iconsax-style.css">
+    <link rel="stylesheet" href="assets/css/iconly.css">
+    <link rel="stylesheet" href="assets/css/lity.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body class="nba_demo_one">
+    <div class="preloader" id="preloader">
+        <svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+          <path d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+        </svg>
+        <div class="inner">
+          <canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+          <figure><img src="assets/images/logo.png" alt="Image"></figure>
+          <small>Loading</small> </div>
+        <!-- end inner -->
+      </div>
+      <!-- end preloder -->
+<div class="smooth-scroll" data-scroll-container>
+    <div class="section-wrapper" data-scroll-section>       
+<!-- Header Start -->
+<header>
+    <!-- <div class="nb__top-header d-none d-lg-block nb-bg2  nb-darkv1 nb-mp">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="nb__info-items d-flex align-items-center pera-content">
+                    <a href="mailto:info@example.com" class="d-flex align-items-center text-white">
+                        <i class="nb_icon nb_icon-envelop mr-10"></i>
+                        <p class="nb-bcl">info@example.com </p>
+                    </a>
+                </div>
+                <div class="nb__info-items d-flex align-items-center pera-content justify-content-center text-white">
+                    <i class="nb_icon nb_icon-location mr-10"></i>
+                    <p class="nb-bcl">791 Douglas, Collinsville, Virginia, USA</p>
+                </div>
+                <div class="nb__info-items d-flex align-items-center pera-content  justify-content-center">
+                    <a href="tel:6295550129" class="d-flex align-items-center text-white">
+                        <i class="nb_icon nb_icon-call mr-10"></i>
+                        <p class="nb-bcl">(629) 555-0129</p>
+                    </a>
+                </div>
+                <div class="nb__info-items d-flex align-items-center justify-content-end after-content-none nb__top-social-icon text-white">
+                    <a href="#"><i class="nb_icon nb_icon-facebook"></i></a>
+                    <a href="#"><i class="nb_icon nb_icon-twitter"></i></a>
+                    <a href="#"><i class="nb_icon nb_icon-instagram"></i></a>
+                    <a href="#"><i class="nb_icon nb_icon-linkedin"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div> -->
+    <div class="nb__main-header nb-abg nb-darkv1 border-0">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <div class="nb__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-9 d-flex align-items-center justify-content-end">
+                    <nav class="nb__navmenu text-center ps-xl-5 ul-li d-none d-lg-block">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)">Project</a>
+                                <ul class="submenu-wrapper">
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)">Pages</a>
+                                <ul class="submenu-wrapper">
+                                    <!-- <li><a href="services.html">Services</a></li> -->
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="has-submenu">
+                                <a href="javascript:void(0)">Blog</a>
+                                <ul class="submenu-wrapper">
+                                    <li><a href="blog.html">Blog List</a></li>
+                                    <li><a href="blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nb__header-search-form mr-45 ml-25 d-none d-sm-block">
+                        <form class="nd__search">
+                            <input type="text" id="search" class="search__input" placeholder="Search...." />
+                            <button type="button" class="search__button search__button-dkv">
+                                <i class="nb_icon nb_icon-search nb-wcl"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <button type="button" class="header-toggle offcanvus-toggle d-lg-inline-flex d-none">
+                        <span class="offcanvas_border_one"></span>
+                        <span></span>
+                    </button>
+                    <button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
+                        <span class="offcanvas_border_one"></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+
+<!--offcanvus start-->
+<div class="offcanvus-box position-fixed bg-white">
+    <a href="javascript:void(0)" class="offcanvus-close"><i class="isax icon-close-circle1"></i></a>
+    <div class="content-top">
+        <a href="index.html" class="offcanvus-logo"><img src="assets/images/balck_logo.svg" alt="logo"></a>
+        <p class="mb-0 mt-32 fw-light">Distrak Street 2SK Line, Germanygalore@inside-support.com (+125) 2156-2145
+        </p>
+    </div>
+    <div class="offcanvus-gallery d-flex align-items-center flex-wrap">
+        <a href="#"><img src="assets/images/gallery/1.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/2.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/3.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/4.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/5.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/6.jpg" alt="not found"></a>
+    </div>
+</div>
+<!--offcanvus end-->
+
+<!--mobile menu start-->
+<div class="mobile-menu ul-li">
+    <a href="javascript:void(0)" class="close"><i class="isax icon-close-circle1"></i></a>
+    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+    <ul class="mobile-nav-menu">
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Home</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index2.html">Home 2</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Project</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <li><a href="project.html">Project</a></li>
+                <li><a href="project-details.html">Project Details</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Pages</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="service-details.html">Service Details</a></li>
+                <li><a href="faq.html">Faq</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Blog</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <li><a href="blog.html">Blog List</a></li>
+                <li><a href="blog-single.html">Blog Details</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<!--mobile menu end-->
+
+
+
+ <!-- About Bredcrumb Start -->
+<section class="nb_bredcrumb nb-bg1 nb-mp ">
+    <div class="nb_bredcrumb_wrapper">
+        <div class="nbv2-container">
+            <div class="nb_bredcrumb_wrapper_container nb-dw justify-content-between">
+                    <div class="nb_bredcrumb_left">
+                        <div class="nb-about-contain">
+                            <h4 class="mb_name nb-f32 nb-fw7 nb-wcl nb-ffh">
+                                Service
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="nb_bredcrumb_right">
+                        <div>
+                            <h4 class="nb-about-contain-link mb_name nb-wcl nb-f24 nb-fw7  nb-ffh text-end ">
+                                <a href="#" class="nb-ahbr">Home</a>
+                                <span>/</span>
+                                <a href="#" class="nb-ahbr">Service</a>
+                            </h4>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Bredcrumb End -->
+
+<!-- nb-service-info-area start  -->
+<section class="nb-service-info-area nb-bg1">
+    <div class="container nb-service-info-container">
+        <div class="row">
+            <div class="col-12  col-md-8">
+
+                <div class="nb-service-info-contain-img">
+                    <img src="assets/images/Rectangle 1154.png" alt="">
+                </div>
+
+                <div class="nb-service-info-contain">
+
+                    <div class="nb-service-info-contain-box1">
+                        <h6 class="has_text_reveal_anim">
+                            The best service ever we provide
+                        </h6>
+
+                        <h4 class="has_char_anim">
+                            Elevate Your Brand with Creative Brilliance
+                        </h4>
+                        
+                        <p class="has_fade_anim">
+                            Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam an eros justo, posuere lobortis  viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non, viverra
+                        </p>
+                    </div>
+
+                    <div class="nb-service-info-contain-box2 has_fade_anim">
+                        <div class="nb-service-info-contain-box2-img">
+                            <img src="assets/images/Rectangle 1155.png" alt="Rectangle 1155.png">
+                        </div>
+                        <div class="nb-service-info-contain-box2-text">
+                            <h4 class="nb-service-info-contain-box2-h4">
+                                We Make Your Ideas Shine
+                            </h4>
+
+                            <p class="nb-service-info-contain-box2-p1">
+                                Planing, Real Estate
+                            </p>
+
+
+                            <p class="nb-service-info-contain-box2-p2">
+                                Aliquam eros justo, posuere loborti vive rra laoreet matti ullamc orper poviverra Aliquam eros justo, posuere
+                            </p>
+                        </div>
+                        <p class="nb-service-info-contain-box2-main-p">
+                            Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis  viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non, viverra
+                        </p>
+                    </div>
+
+
+                    <div class="has_fade_anim">
+                        <h4 class="nb-service-info-contain-box3-h4">
+                            Artistry in Every Pixel
+                        </h4>
+
+                        <ul class="nb-service-info-contain-box3-ul">
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                Aliquam eros justo, posuere loborti
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                Aliquam eros justo, posuere loborti
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere vi
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere vi
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                Aliquam eros justo, posuere loborti
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                Aliquam eros justo, posuere loborti
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere vi
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere vi
+                            </li>
+
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere vi
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="nb-button-hover-link has_fade_anim">
+                        <a class="nb_btn_hover_all " href="#">
+                            <span>Request service</span>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-12  col-md-4">
+                <div>
+                    <div>
+                        <ul class="nb-service-list-items has_fade_anim">
+                            <li>
+                                Star with us project
+                            </li>
+
+                            <li>
+                                Best service here
+                            </li>
+
+                            <li>
+                                Regulare services
+                            </li>
+
+                            <li>
+                                valuable coustomer service
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nb-service-download-items has_fade_anim">
+                        <h4>
+                            Download Profile
+                        </h4>
+
+
+                        <div class="nb-service-download-items-box has_fade_anim">
+
+                            <div class="nb-service-download-items-contain">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                        <g clip-path="url(#clip0_3220_2519)">
+                                          <path d="M28.9752 8.11857L21.3323 0.176836C21.2235 0.0638672 21.0734 0 20.9166 0H9.52535C8.25053 0 7.21336 1.03676 7.21336 2.31105V10.3846H2.59693C1.64314 10.3846 0.867188 11.1604 0.867188 12.1139V20.7708C0.867188 21.7243 1.64314 22.5 2.59693 22.5H7.21336V27.693C7.21336 28.9651 8.25053 30 9.52535 30H26.8245C28.0993 30 29.1364 28.9656 29.1364 27.6943V8.51865C29.1364 8.36947 29.0786 8.22609 28.9752 8.11857ZM21.0595 1.55748L27.3337 8.07691H21.0595V1.55748ZM2.59693 21.3462C2.27936 21.3462 2.02107 21.0881 2.02107 20.7708V12.1139C2.02107 11.7966 2.27941 11.5385 2.59693 11.5385H18.176C18.4935 11.5385 18.7518 11.7966 18.7518 12.1139V20.7708C18.7518 21.0881 18.4935 21.3462 18.176 21.3462H2.59693ZM27.9826 27.6943C27.9826 28.3294 27.463 28.8462 26.8244 28.8462H9.52535C8.88674 28.8462 8.36719 28.3289 8.36719 27.693V22.5H18.176C19.1297 22.5 19.9057 21.7243 19.9057 20.7708V12.1139C19.9057 11.1604 19.1297 10.3846 18.176 10.3846H8.36719V2.31105C8.36719 1.67291 8.88674 1.15383 9.52535 1.15383H19.9056V8.65383C19.9056 8.97246 20.164 9.23074 20.4826 9.23074H27.9826V27.6943Z" fill="#51DFCF"/>
+                                          <path d="M7.7667 14.6415C7.57516 14.3925 7.33738 14.2307 7.05344 14.1564C6.86863 14.1068 6.47201 14.082 5.86352 14.082H4.25781V19.0377H5.25842V17.1683H5.91086C6.36385 17.1683 6.70978 17.1447 6.94867 17.0973C7.12445 17.059 7.29742 16.9807 7.46758 16.8624C7.63773 16.7441 7.77801 16.5812 7.88846 16.3739C7.99891 16.1666 8.0541 15.9108 8.0541 15.6066C8.05404 15.2122 7.95824 14.8905 7.7667 14.6415ZM6.90977 16.0055C6.8343 16.1159 6.73006 16.197 6.59705 16.2489C6.46404 16.3007 6.20043 16.3266 5.80603 16.3266H5.25842V14.9204H5.74182C6.1024 14.9204 6.3424 14.9316 6.46182 14.9542C6.62406 14.9835 6.75818 15.0567 6.86406 15.1739C6.97 15.2911 7.02297 15.4399 7.02297 15.6201C7.02303 15.7666 6.98523 15.895 6.90977 16.0055Z" fill="#51DFCF"/>
+                                          <path d="M12.8595 15.4359C12.7513 15.1193 12.5935 14.8517 12.3862 14.633C12.1789 14.4144 11.9298 14.2623 11.6391 14.1767C11.4228 14.1136 11.1084 14.082 10.696 14.082H8.86719V19.0377H10.7501C11.1197 19.0377 11.4149 19.0028 11.6357 18.9329C11.931 18.8383 12.1654 18.7064 12.3389 18.5374C12.5687 18.3143 12.7456 18.0225 12.8696 17.6619C12.971 17.3666 13.0217 17.0151 13.0217 16.6072C13.0217 16.1429 12.9676 15.7525 12.8595 15.4359ZM11.8859 17.4709C11.8183 17.6929 11.731 17.8524 11.6239 17.9492C11.5169 18.0461 11.3822 18.1149 11.22 18.1554C11.096 18.187 10.8943 18.2028 10.6149 18.2028H9.86779V14.9204H10.3174C10.7253 14.9204 10.9991 14.9362 11.1388 14.9677C11.3258 15.0083 11.4802 15.086 11.6019 15.201C11.7236 15.316 11.8183 15.4759 11.8859 15.681C11.9535 15.8861 11.9873 16.1802 11.9873 16.5633C11.9873 16.9464 11.9535 17.2489 11.8859 17.4709Z" fill="#51DFCF"/>
+                                          <path d="M17.2762 14.9204V14.082H13.8789V19.0377H14.8795V16.9317H16.9483V16.0934H14.8795V14.9204H17.2762Z" fill="#51DFCF"/>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_3220_2519">
+                                            <rect width="30" height="30" rx="5" fill="white"/>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </span>
+
+                                <span>
+                                    <h4>
+                                     Our brochure
+                                    </h4>
+                                    <p>
+                                     Download
+                                    </p>
+                                </span>
+                            </div>
+
+                            <div class="nb-service-download-items-link">
+                                <a href="img/Rectangle 1154.png" download="img" class="nb-icon">
+                                    <i class=" isax icon-arrow-right1"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="nb-service-download-items-box has_fade_anim">
+
+                            <div class="nb-service-download-items-contain">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                        <g clip-path="url(#clip0_3220_2519)">
+                                          <path d="M28.9752 8.11857L21.3323 0.176836C21.2235 0.0638672 21.0734 0 20.9166 0H9.52535C8.25053 0 7.21336 1.03676 7.21336 2.31105V10.3846H2.59693C1.64314 10.3846 0.867188 11.1604 0.867188 12.1139V20.7708C0.867188 21.7243 1.64314 22.5 2.59693 22.5H7.21336V27.693C7.21336 28.9651 8.25053 30 9.52535 30H26.8245C28.0993 30 29.1364 28.9656 29.1364 27.6943V8.51865C29.1364 8.36947 29.0786 8.22609 28.9752 8.11857ZM21.0595 1.55748L27.3337 8.07691H21.0595V1.55748ZM2.59693 21.3462C2.27936 21.3462 2.02107 21.0881 2.02107 20.7708V12.1139C2.02107 11.7966 2.27941 11.5385 2.59693 11.5385H18.176C18.4935 11.5385 18.7518 11.7966 18.7518 12.1139V20.7708C18.7518 21.0881 18.4935 21.3462 18.176 21.3462H2.59693ZM27.9826 27.6943C27.9826 28.3294 27.463 28.8462 26.8244 28.8462H9.52535C8.88674 28.8462 8.36719 28.3289 8.36719 27.693V22.5H18.176C19.1297 22.5 19.9057 21.7243 19.9057 20.7708V12.1139C19.9057 11.1604 19.1297 10.3846 18.176 10.3846H8.36719V2.31105C8.36719 1.67291 8.88674 1.15383 9.52535 1.15383H19.9056V8.65383C19.9056 8.97246 20.164 9.23074 20.4826 9.23074H27.9826V27.6943Z" fill="#51DFCF"/>
+                                          <path d="M7.7667 14.6415C7.57516 14.3925 7.33738 14.2307 7.05344 14.1564C6.86863 14.1068 6.47201 14.082 5.86352 14.082H4.25781V19.0377H5.25842V17.1683H5.91086C6.36385 17.1683 6.70978 17.1447 6.94867 17.0973C7.12445 17.059 7.29742 16.9807 7.46758 16.8624C7.63773 16.7441 7.77801 16.5812 7.88846 16.3739C7.99891 16.1666 8.0541 15.9108 8.0541 15.6066C8.05404 15.2122 7.95824 14.8905 7.7667 14.6415ZM6.90977 16.0055C6.8343 16.1159 6.73006 16.197 6.59705 16.2489C6.46404 16.3007 6.20043 16.3266 5.80603 16.3266H5.25842V14.9204H5.74182C6.1024 14.9204 6.3424 14.9316 6.46182 14.9542C6.62406 14.9835 6.75818 15.0567 6.86406 15.1739C6.97 15.2911 7.02297 15.4399 7.02297 15.6201C7.02303 15.7666 6.98523 15.895 6.90977 16.0055Z" fill="#51DFCF"/>
+                                          <path d="M12.8595 15.4359C12.7513 15.1193 12.5935 14.8517 12.3862 14.633C12.1789 14.4144 11.9298 14.2623 11.6391 14.1767C11.4228 14.1136 11.1084 14.082 10.696 14.082H8.86719V19.0377H10.7501C11.1197 19.0377 11.4149 19.0028 11.6357 18.9329C11.931 18.8383 12.1654 18.7064 12.3389 18.5374C12.5687 18.3143 12.7456 18.0225 12.8696 17.6619C12.971 17.3666 13.0217 17.0151 13.0217 16.6072C13.0217 16.1429 12.9676 15.7525 12.8595 15.4359ZM11.8859 17.4709C11.8183 17.6929 11.731 17.8524 11.6239 17.9492C11.5169 18.0461 11.3822 18.1149 11.22 18.1554C11.096 18.187 10.8943 18.2028 10.6149 18.2028H9.86779V14.9204H10.3174C10.7253 14.9204 10.9991 14.9362 11.1388 14.9677C11.3258 15.0083 11.4802 15.086 11.6019 15.201C11.7236 15.316 11.8183 15.4759 11.8859 15.681C11.9535 15.8861 11.9873 16.1802 11.9873 16.5633C11.9873 16.9464 11.9535 17.2489 11.8859 17.4709Z" fill="#51DFCF"/>
+                                          <path d="M17.2762 14.9204V14.082H13.8789V19.0377H14.8795V16.9317H16.9483V16.0934H14.8795V14.9204H17.2762Z" fill="#51DFCF"/>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_3220_2519">
+                                            <rect width="30" height="30" rx="5" fill="white"/>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </span>
+
+                                <span>
+                                    <h4>
+                                     Our brochure
+                                    </h4>
+                                    <p>
+                                     Download
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="nb-service-download-items-link">
+                                <a href="img/Rectangle 1154.png" download="img" class="nb-icon">
+                                    <i class=" isax icon-arrow-right1"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- nb-service-info-area End -->
+
+
+
+
+
+<!-- Footer Section Start  -->
+<section class="nbv2_footer nb-bg2 nb-mp nb-malls">
+    <div class="nbv2_footer_wrapper">
+        <div class="container">
+            <div class="nbv2_footer_wrapper_container">
+                <div class="nbv2_footer_top nb-ptb120">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 ps-0 has_fade_anim">
+                            <div class="nbv2_footer_top_logo">
+                                <img src="assets/images/logo.png" alt="">
+                                <p class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-ptb30">Your Dream , Our Expertise.</p>
+                                <div class="form-group nbv2_footer_input position-relative d-flex align-items-center">
+                                    <input type="text" class="form-control nb-bg1 nb_inpf"
+                                           placeholder="Your Mail Address"
+                                           id="footer">
+                                    <i class="isax icon-send-2 nb-f16 nb-fw7 nb-mcl position-absolute"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-0 col-lg-12 col-xl-1 col-xxl-1 col-md-0 col-sm-0 ps-0 d-md-none d-sm-none d-lg-block d-xl-block  d-xxl-block"></div>
+                        <div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nb-mtp has_fade_anim">
+                            <div class="nbv2_footer_top_link">
+                                <h4 class="nb-f24 nb-fw7 nb-wcl nb-ffh pb-5">Pages</h4>
+                                <ul class="ps-0">
+                                    <li><a href="./index.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Mistakes To Avoid"><span class="nb_animation_text_linksp">Home</span></a>
+                                    </li>
+                                    <li><a href="./service-details.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Your Startup"><span class="nb_animation_text_linksp">Services</span></a>
+                                    </li>
+                                    <li><a href="./about.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Knew About Fonts"><span class="nb_animation_text_linksp">About</span></a>
+                                    </li>
+                                    <li><a href="./contact.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Winning Metric "><span class="nb_animation_text_linksp">Contact Us</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-0 col-lg-12 col-xl-1 col-xxl-1 col-md-0 col-sm-0 ps-0 d-md-none d-sm-none d-lg-block d-xl-block  d-xxl-block"></div>
+                        <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nb-mtp has_fade_anim">
+                            <div class="nbv2_footer_top_link">
+                                <h4 class="nb-f24 nb-fw7 nb-wcl nb-ffh pb-5">Social</h4>
+                                <ul class="ps-0">
+                                    <li><a href="https://www.instagram.com/net.nobel/" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Teahnical"><span
+                                            class="nb_animation_text_linksp">Instagram</span></a></li>
+                                    <li><a href="https://www.linkedin.com/company/net-nobel" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Traslation"><span
+                                            class="nb_animation_text_linksp">LinkedIn</span></a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="nbv2_footer_bottom d-flex justify-content-between nb-ptb30 nb-dw nb-cr">
+                    <p class="nb-f16 nb-fw4 nb-bcl nb-ffb">© Net Nobel 2024 | All Rights Reserved</p>
+                    <div class="nbv2_footer_bottom_link d-flex justify-content-between gap-3 nb-dw nb-ac">
+                        <a href="#" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb"
+                           data-replace="Trams & Condition"> <span
+                                class="nb_animation_text_linksp">Trams & Condition</span></a>
+                        <a href="#" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb"
+                           data-replace="Privacy Policy"> <span
+                                class="nb_animation_text_linksp">Privacy Policy</span></a>
+                        <a href="#" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb" data-replace="Sitemap">
+                            <span class="nb_animation_text_linksp">Sitemap</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section End  -->
+  </div>
+</div>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/lity.min.js"></script>
+<script src="assets/js/count.js"></script>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/locomotive-scroll.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/ScrollToPlugin.min.js"></script>
+<script src="assets/js/SplitText.min.js"></script>
+
+<script src="assets/js/marquee.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/ThemeAnim.js"></script>
+
+
+</body>
+</html>

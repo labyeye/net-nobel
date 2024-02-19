@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Nistbyte - Blog Single</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/tabanimation.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/iconsax-style.css">
+    <link rel="stylesheet" href="assets/css/iconly.css">
+    <link rel="stylesheet" href="assets/css/lity.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body class="nba_demo_one">
+    <div class="preloader" id="preloader">
+        <svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+          <path d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+        </svg>
+        <div class="inner">
+          <canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+          <figure><img src="assets/images/logo.png" alt="Image"></figure>
+          <small>Loading</small> </div>
+        <!-- end inner -->
+      </div>
+      <!-- end preloder -->
+      
+<div class="smooth-scroll" data-scroll-container>
+    <div class="section-wrapper" data-scroll-section>  
+    
+<!-- Header Start -->
+<header>
+    <!-- <div class="nb__top-header d-none d-lg-block nb-bg2  nb-darkv1 nb-mp">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="nb__info-items d-flex align-items-center pera-content">
+                    <a href="mailto:info@example.com" class="d-flex align-items-center text-white">
+                        <i class="nb_icon nb_icon-envelop mr-10"></i>
+                        <p class="nb-bcl">info@example.com </p>
+                    </a>
+                </div>
+                <div class="nb__info-items d-flex align-items-center pera-content justify-content-center text-white">
+                    <i class="nb_icon nb_icon-location mr-10"></i>
+                    <p class="nb-bcl">791 Douglas, Collinsville, Virginia, USA</p>
+                </div>
+                <div class="nb__info-items d-flex align-items-center pera-content  justify-content-center">
+                    <a href="tel:6295550129" class="d-flex align-items-center text-white">
+                        <i class="nb_icon nb_icon-call mr-10"></i>
+                        <p class="nb-bcl">(629) 555-0129</p>
+                    </a>
+                </div>
+                <div class="nb__info-items d-flex align-items-center justify-content-end after-content-none nb__top-social-icon text-white">
+                    <a href="#"><i class="nb_icon nb_icon-facebook"></i></a>
+                    <a href="#"><i class="nb_icon nb_icon-twitter"></i></a>
+                    <a href="#"><i class="nb_icon nb_icon-instagram"></i></a>
+                    <a href="#"><i class="nb_icon nb_icon-linkedin"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div> -->
+    <div class="nb__main-header nb-abg nb-darkv1 border-0">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <div class="nb__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-9 d-flex align-items-center justify-content-end">
+                    <nav class="nb__navmenu text-center ps-xl-5 ul-li d-none d-lg-block">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)">Project</a>
+                                <ul class="submenu-wrapper">
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)">Pages</a>
+                                <ul class="submenu-wrapper">
+                                    <!-- <li><a href="services.html">Services</a></li> -->
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="has-submenu">
+                                <a href="javascript:void(0)">Blog</a>
+                                <ul class="submenu-wrapper">
+                                    <li><a href="blog.html">Blog List</a></li>
+                                    <li><a href="blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nb__header-search-form mr-45 ml-25 d-none d-sm-block">
+                        <form class="nd__search">
+                            <input type="text" id="search" class="search__input" placeholder="Search...." />
+                            <button type="button" class="search__button search__button-dkv">
+                                <i class="nb_icon nb_icon-search nb-wcl"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <button type="button" class="header-toggle offcanvus-toggle d-lg-inline-flex d-none">
+                        <span class="offcanvas_border_one"></span>
+                        <span></span>
+                    </button>
+                    <button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
+                        <span class="offcanvas_border_one"></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+
+<!--offcanvus start-->
+<div class="offcanvus-box position-fixed bg-white">
+    <a href="javascript:void(0)" class="offcanvus-close"><i class="isax icon-close-circle1"></i></a>
+    <div class="content-top">
+        <a href="index.html" class="offcanvus-logo"><img src="assets/images/balck_logo.svg" alt="logo"></a>
+        <p class="mb-0 mt-32 fw-light">Distrak Street 2SK Line, Germanygalore@inside-support.com (+125) 2156-2145
+        </p>
+    </div>
+    <div class="offcanvus-gallery d-flex align-items-center flex-wrap">
+        <a href="#"><img src="assets/images/gallery/1.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/2.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/3.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/4.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/5.jpg" alt="not found"></a>
+        <a href="#"><img src="assets/images/gallery/6.jpg" alt="not found"></a>
+    </div>
+</div>
+<!--offcanvus end-->
+
+<!--mobile menu start-->
+<div class="mobile-menu ul-li">
+    <a href="javascript:void(0)" class="close"><i class="isax icon-close-circle1"></i></a>
+    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+    <ul class="mobile-nav-menu">
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Home</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index2.html">Home 2</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Project</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <li><a href="project.html">Project</a></li>
+                <li><a href="project-details.html">Project Details</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Pages</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="service-details.html">Service Details</a></li>
+                <li><a href="faq.html">Faq</a></li>
+            </ul>
+        </li>
+        <li class="has-submenu">
+            <a href="javascript:void(0)">Blog</a>
+            <i class="isax icon-arrow-down1"></i>
+            <ul class="submenu-wrapper">
+                <li><a href="blog.html">Blog List</a></li>
+                <li><a href="blog-single.html">Blog Details</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<!--mobile menu end-->
+
+
+
+<!-- About Bredcrumb Start -->
+<section class="nb_bredcrumb nb-bg1 nb-mp ">
+    <div class="nb_bredcrumb_wrapper">
+        <div class="nbv2-container">
+            <div class="nb_bredcrumb_wrapper_container nb-dw justify-content-between">
+                    <div class="nb_bredcrumb_left">
+                        <div class="nb-about-contain">
+                            <h4 class="mb_name nb-f32 nb-fw7 nb-wcl nb-ffh">
+                                Blog Details
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="nb_bredcrumb_right">
+                        <div>
+                            <h4 class="nb-about-contain-link mb_name nb-wcl nb-f24 nb-fw7  nb-ffh text-end ">
+                                <a href="#" class="nb-ahbr">Home</a>
+                                <span>/</span>
+                                <a href="#" class="nb-ahbr">Blog Details</a>
+                            </h4>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Bredcrumb End -->
+
+
+<section class="pt-150 pb-120 nb-bg1 nb__mobile-pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div>
+                    <div class="mb-30 nb-admin-banner">
+                        <img src="assets/images/blog-banner.png" alt="blog-banner.png">
+                    </div>
+                    <div class="nb-admin-box-contain">
+                        <h4>
+                            Where Creativity Knows No Limits
+                        </h4>
+
+                        <ul class="nb-admin-box-ul">
+                            <li>
+                                <a href="#" class="nb-admin-box">
+                                    <span>
+                                        <img src="assets/images/by-admin.png" alt="by-admin.png">
+                                    </span>
+
+                                    <span class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb " data-replace="By admin">
+                                        By admin
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="nb-admin-box">
+                                    <span class="nb-admin-box-icons">
+                                        <i class="fa-solid fa-folder-open"></i>
+                                    </span>
+
+                                    <span class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb " data-replace="Category">
+                                        Category
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="nb-admin-box">
+                                    <span class="nb-admin-box-icons">
+                                        <i class="fa-regular fa-comments"></i>
+                                    </span>
+
+                                    <span class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb " data-replace="Comments (05)">
+                                        Comments (05)
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <p class="nb-f16 nb-fw4 nb-bcl nb-ffb mb-30">
+                            Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non, viverra laoreet augue mattis.Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam 
+                        </p>
+
+                        <p class="nb-f16 nb-fw4 nb-bcl nb-ffb mb-50">
+                            Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non.
+                        </p>
+
+                    </div>
+                    <div class="nb-blog-info-contain">
+                        <div class="nb-blog-info pt-35 pb-35 pl-40 pr-40">
+                            <p class="nb-f16 nb-fw4 nb-bcl nb-ffb mb-10">
+                                Aliquam eros justo, posuere loborti viverra laoreet matullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper
+                            </p>
+
+                            <h6 class="nb-f18 nb-fw7 nb-wcl nb-ffh">
+                                Stanio lainto
+                            </h6>
+
+                            <span>
+                                <svg width="84" height="60" viewBox="0 0 84 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.7">
+                                    <mask id="path-1-inside-1_3201_234" fill="white">
+                                    <path d="M18 3.14722e-06C27.9375 4.88475e-06 36 8.06251 36 18L36 36C36 49.3125 25.125 60 12 60C8.62499 60 5.99999 57.375 5.99999 54C5.99999 50.8125 8.62499 48 12 48C18.5625 48 24 42.75 24 36L24 35.0625C21.9375 35.625 20.0625 36 18 36C7.87499 36 -8.06475e-06 28.125 -6.29444e-06 18C-4.55691e-06 8.0625 7.875 1.37691e-06 18 3.14722e-06ZM84 18L84 36C84 49.3125 73.125 60 60 60C56.625 60 54 57.375 54 54C54 50.8125 56.625 48 60 48C66.5625 48 72 42.75 72 36L72 35.0625C69.9375 35.625 68.0625 36 66 36C55.875 36 48 28.125 48 18C48 8.06251 55.875 9.7695e-06 66 1.15398e-05C75.9375 1.32773e-05 84 8.06251 84 18Z"/>
+                                    </mask>
+                                    <path d="M24 35.0625L25 35.0625L25 33.7533L23.7369 34.0977L24 35.0625ZM72 35.0625L73 35.0625L73 33.7533L71.7369 34.0977L72 35.0625ZM18 1C27.3852 1 35 8.61479 35 18L37 18C37 7.51022 28.4898 -0.999995 18 -0.999997L18 1ZM35 18L35 36L37 36L37 18L35 18ZM35 36C35 48.7551 24.5778 59 12 59L12 61C25.6722 61 37 49.8699 37 36L35 36ZM12 59C9.17727 59 6.99999 56.8227 6.99999 54L4.99999 54C4.99999 57.9273 8.0727 61 12 61L12 59ZM6.99999 54C6.99999 51.3444 9.19744 49 12 49L12 47C8.05254 47 4.99999 50.2806 4.99999 54L6.99999 54ZM12 49C19.1046 49 25 43.3125 25 36L23 36C23 42.1876 18.0204 47 12 47L12 49ZM25 36L25 35.0625L23 35.0625L23 36L25 36ZM23.7369 34.0977C21.7136 34.6495 19.9357 35 18 35L18 37C20.1893 37 22.1614 36.6005 24.2631 36.0273L23.7369 34.0977ZM18 35C8.42728 35 0.999992 27.5727 0.999994 18L-1.00001 18C-1.00001 28.6773 7.32271 37 18 37L18 35ZM0.999994 18C0.999995 8.60797 8.43408 1 18 1L18 -0.999997C7.31592 -0.999999 -1 7.51703 -1.00001 18L0.999994 18ZM83 18L83 36L85 36L85 18L83 18ZM83 36C83 48.7552 72.5778 59 60 59L60 61C73.6722 61 85 49.8699 85 36L83 36ZM60 59C57.1773 59 55 56.8227 55 54L53 54C53 57.9273 56.0727 61 60 61L60 59ZM55 54C55 51.3444 57.1974 49 60 49L60 47C56.0525 47 53 50.2806 53 54L55 54ZM60 49C67.1046 49 73 43.3125 73 36L71 36C71 42.1876 66.0204 47 60 47L60 49ZM73 36L73 35.0625L71 35.0625L71 36L73 36ZM71.7369 34.0977C69.7136 34.6495 67.9357 35 66 35L66 37C68.1893 37 70.1614 36.6005 72.2631 36.0273L71.7369 34.0977ZM66 35C56.4273 35 49 27.5727 49 18L47 18C47 28.6773 55.3227 37 66 37L66 35ZM49 18C49 8.60797 56.4341 1.00001 66 1.00001L66 -0.999988C55.3159 -0.99999 47 7.51704 47 18L49 18ZM66 1.00001C75.3852 1.00001 83 8.6148 83 18L85 18C85 7.51023 76.4898 -0.999987 66 -0.999988L66 1.00001Z" fill="#51DFCF" mask="url(#path-1-inside-1_3201_234)"/>
+                                    </g>
+                                    </svg>
+                            </span>
+                        </div>
+                        <div>
+                            <img src="assets/images/blog-info-img.png" alt="blog-info-img.png">
+                        </div>
+                    </div>
+                    <div class="mb-60">
+                        <p class="nb-f16 nb-fw4 nb-bcl nb-ffb mb-20">
+                            Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non.
+                        </p>
+
+                        <ul class="nb-blog-info-list-item mb-0">
+                            <li class="nb-f16 nb-fw4 nb-bcl nb-ffb">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                Aliquam eros justo, posuere loborti vive rra laoreet
+                            </li>
+
+                            <li class="nb-f16 nb-fw4 nb-bcl nb-ffb">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                Aliquam eros justo, posuere loborti vive rra laoreet
+                            </li>
+
+                            <li class="nb-f16 nb-fw4 nb-bcl nb-ffb">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere viverra
+                            </li>
+
+
+                            <li class="nb-f16 nb-fw4 nb-bcl nb-ffb">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none">
+                                        <path d="M1 6.57143L1.17875 6.75018C3.13137 8.7028 6.2972 8.7028 8.24982 6.75018L14 1" stroke="#51DFCF" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                laoreet matti ullamc orper posu ere viverra
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nb-Category-link">
+                        <ul class="nb-Category-link-ul-1">
+                            <li>
+                                <a class="nb-Category-link-a" href="#">
+                                    All Project
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="nb-Category-link-a" href="#">
+                                    New Agency
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="nb-Category-link-a" href="#">
+                                    Side layer
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="nb-Category-link-ul-2 align-items-center">
+
+                            <li class="nb-f18 nb-fw7 nb-wcl nb-ffh  pr-15">
+                                Share:-
+                            </li>
+
+                            <li class="nb-btna-hbr">
+                                <a class="nb-Category-link-icons  nb-btna" href="#">
+                                    <i class="nb_icon nb_icon-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li class="nb-btna-hbr">
+                                <a class="nb-Category-link-icons nb-btna" href="#">
+                                    <i class="nb_icon nb_icon-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nb-btna-hbr">
+                                <a class="nb-Category-link-icons nb-btna" href="#">
+                                    <i class="nb_icon nb_icon-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nb-blog-form-area pt-40 pb-40 pr-40 pl-40 mb-60">
+                        <div class="nb-blog-form-contain mb-20">
+                            <h4>
+                                Add a comment
+                            </h4>
+
+                            <p>
+                                By using form u agree with the message sorage, you can contact us directly now
+                            </p>
+                        </div>
+
+                        <form class="nb-blog-form" >
+                            <input class="nb-blog-form-input" type="text" placeholder="Your Name" required>
+
+                            <input class="nb-blog-form-input" type="email" placeholder="Your Email" required>
+
+                            <input class="nb-blog-form-input" type="text" placeholder="Your Website" required>
+
+                            <textarea class="nb-blog-form-textarea" name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your messege"></textarea>
+
+                            <span><input id="nb-blog-form-checkbox" class="nb-blog-form-checkbox" type="checkbox" required><label class="nb-blog-form-label" for="nb-blog-form-checkbox">Save my name email and website</label></span>
+
+                            <button class="nb_btn_hover_all nb-contact-contain-button nb-blog-form-button">
+                                <span>
+                                    Post comment
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="nb-comment-area">
+                        <div class="nb-comment-area-title mb-60">
+                            <h4>
+                                1 Comment
+                            </h4>
+                        </div>
+
+                        <ul class="nb-comment-area-ul">
+                            <li>
+                                <div class="nb-comment-contain-img">
+                                    <img src="assets/images/comment-1.png" alt="comment-1.png">
+                                </div>
+
+                                <div class="nb-comment-contain">
+                                    <h4>
+                                        Stanio lainto
+                                    </h4>
+
+                                    <p>
+                                        ished fact that a reader will be distrol acted bioii the.ished fact that a reader will be distrol acted laoreet Aliquam reader will be distrol acted
+                                    </p>
+
+                                    <div class="nb-comment-contain-span">
+                                        <p>
+                                            October 19, 2022
+                                        </p>
+
+                                        <a class="nb_animation_text_link" href="#">
+                                            Reply
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nb-comment-area-ul-padding">
+                                <div class="nb-comment-contain-img">
+                                    <img src="assets/images/comment-2.png" alt="comment-1.png">
+                                </div>
+
+                                <div class="nb-comment-contain">
+                                    <h4>
+                                        salik lainto
+                                    </h4>
+
+                                    <p>
+                                        ished fact that a reader will be distrol acted bioii the.ished fact that a reader will be distrol acted laoreet Aliquam reader will be distrol acted
+                                    </p>
+
+                                    <div class="nb-comment-contain-span">
+                                        <p>
+                                            October 19, 2022
+                                        </p>
+
+                                        <a class="nb_animation_text_link" href="#">
+                                            Reply
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="nb-comment-contain-img">
+                                    <img src="assets/images/comment-3.png" alt="comment-1.png">
+                                </div>
+
+                                <div class="nb-comment-contain">
+                                    <h4>
+                                        Habib lainto
+                                    </h4>
+
+                                    <p>
+                                        ished fact that a reader will be distrol acted bioii the.ished fact that a reader will be distrol acted laoreet Aliquam reader will be distrol acted
+                                    </p>
+
+                                    <div class="nb-comment-contain-span">
+                                        <p>
+                                            October 19, 2022
+                                        </p>
+
+                                        <a class="nb_animation_text_link" href="#">
+                                            Reply
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-40 mt-md-0">
+                <form role="search" method="get" class="search-form nb-search-form">
+                    <label class="position-relative ">
+                        <input type="search" class="search-field nb-search-field nb-bg2 nb-f16 nb-bcl nb-fw4 " placeholder="Enter search keywords" value="" name="s">
+                        <i class="isax icon-search-normal-11 nb-f16 nb-mcl nb-fw8"></i>
+                    </label>
+                </form>
+                <div class="nb-widget">
+                    <h4 class="nb-fw7 nb-wcl nb-ffh nb-f24 position-relative nb-wlcolorp pl-10 mt-30">Category</h4>
+                    <div class="nb-cat-list">
+                        <ul class="px-0 d-grid">
+                            <li class="cat-item nb-cat-item position-relative nb-bcl nb-icon"><i class="isax icon-arrow-right-11 "></i><a class="nb-f16 nb-fw4 nb-bcl nb-ffb " href="#">Genarel consturction</a></li>
+                            <li class="cat-item nb-cat-item position-relative nb-bcl nb-icon"><i class="isax icon-arrow-right-11 "></i><a class="nb-f16 nb-fw4 nb-bcl nb-ffb " href="#">Business Advice</a></li>
+                            <li class="cat-item nb-cat-item position-relative nb-bcl nb-icon"><i class="isax icon-arrow-right-11 "></i><a class="nb-f16 nb-fw4 nb-bcl nb-ffb " href="#">Digital market</a></li>
+                            <li class="cat-item nb-cat-item position-relative nb-bcl nb-icon"><i class="isax icon-arrow-right-11 "></i><a class="nb-f16 nb-fw4 nb-bcl nb-ffb " href="#">Regular start</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nb-widget">
+                    <h4 class="nb-fw7 nb-wcl nb-ffh nb-f24 position-relative nb-wlcolorp pl-10 mt-30 mb-25">Recent post</h4>
+                    <div class="nb-related-post">
+                        <div class="nbv2_widget_rl_post d-flex align-items-cente mb-4 gap-3 nb-icon">
+                            <div class="nbv2_widget_rl_post_img">
+                                <a href="#" class="position-relative d-flex align-items-center justify-content-center  "><img src="assets/images/recent-post.png" alt=""> <i class="isax icon-arrow-right1 position-absolute nb-wcl "></i></a>
+                            </div>
+                            <div class="nbv2_footer_rl_post_content">
+                                <a href="#" class="nb-f18 nb-fw7 nb-wcl nb-ffb nb_animation_title_main">
+                                    <span class="nb_animation_title_main_non text-capitalize">  storytelling in the work of a creative agency </span>
+                                    <span class="nb_animation_title_main_hbr text-capitalize"> storytelling in the work of a creative agency </span>
+                                </a>
+                                <p class="nb-f14 nb-fw4 nb-bcl nb-ffb nb-ahbr">28th February 2024</p>
+                            </div>
+                        </div>
+                        <div class="nbv2_widget_rl_post d-flex align-items-cente mb-4 gap-3 nb-icon">
+                            <div class="nbv2_widget_rl_post_img">
+                                <a href="#" class="position-relative d-flex align-items-center justify-content-center  "><img src="assets/images/recent-post1.png" alt=""> <i class="isax icon-arrow-right1 position-absolute nb-wcl "></i></a>
+                            </div>
+                            <div class="nbv2_footer_rl_post_content">
+                                <a href="#" class="nb-f18 nb-fw7 nb-wcl nb-ffb nb_animation_title_main">
+                                    <span class="nb_animation_title_main_non text-capitalize">  benefit from creative agency services </span>
+                                    <span class="nb_animation_title_main_hbr text-capitalize">benefit from creative agency services </span>
+                                </a>
+                                <p class="nb-f14 nb-fw4 nb-bcl nb-ffb nb-ahbr">28th February 2024</p>
+                            </div>
+                        </div>
+                        <div class="nbv2_widget_rl_post d-flex align-items-cente mb-4 gap-3 nb-icon">
+                            <div class="nbv2_widget_rl_post_img">
+                                <a href="#" class="position-relative d-flex align-items-center justify-content-center  "><img src="assets/images/recent-post2.png" alt=""> <i class="isax icon-arrow-right1 position-absolute nb-wcl "></i></a>
+                            </div>
+                            <div class="nbv2_footer_rl_post_content">
+                                <a href="#" class="nb-f18 nb-fw7 nb-wcl nb-ffb nb_animation_title_main">
+                                    <span class="nb_animation_title_main_non text-capitalize"> creative agency enhance my brand's identity </span>
+                                    <span class="nb_animation_title_main_hbr text-capitalize">creative agency enhance my brand's identity</span>
+                                </a>
+                                <p class="nb-f14 nb-fw4 nb-bcl nb-ffb nb-ahbr">28th February 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nb-widget">
+                    <h4 class="nb-fw7 nb-wcl nb-ffh nb-f24 position-relative nb-wlcolorp pl-10 mt-40 mb-20 ">Archive post</h4>
+                    <div class="nb-arcive-list">
+                        <ul class="px-0 d-grid">
+                            <li class="arc-item nb-arc-item position-relative nb-bcl nb-icon "><i class=" isax icon-arrow-right1 nb-mcl"></i><a class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-ahbr" href="#">July 12, 2021 archive post</a></li>
+                            <li class="arc-item nb-arc-item position-relative nb-bcl nb-icon "><i class=" isax icon-arrow-right1 nb-mcl"></i><a class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-ahbr" href="#">July 12, 2021 archive post</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nb-widget">
+                    <h4 class="nb-fw7 nb-wcl nb-ffh nb-f24 position-relative nb-wlcolorp pl-10 mt-40 mb-30 ">Tags</h4>
+                    <div class="nb-tag-list">
+                        <ul class="ps-0 d-flex flex-wrap gap-3">
+                            <li class=" mb-15 "><a href="#" class="nb-fw4 nb-wcl nb-ffh nb-f16 nb-ahbr">All Project</a></li>
+                            <li class=" mb-15"><a href="#" class="nb-fw4 nb-wcl nb-ffh nb-f16 nb-ahbr">New Agency</a></li>
+                            <li class=" mb-15"><a href="#" class="nb-fw4 nb-wcl nb-ffh nb-f16 nb-ahbr">Side layer</a></li>
+                            <li class=" mb-15"><a href="#" class="nb-fw4 nb-wcl nb-ffh nb-f16 nb-ahbr">Side layer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section Start  -->
+<section class="nbv2_footer nb-bg2 nb-mp nb-malls">
+    <div class="nbv2_footer_wrapper">
+        <div class="container">
+            <div class="nbv2_footer_wrapper_container">
+                <div class="nbv2_footer_top nb-ptb120">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 ps-0">
+                            <div class="nbv2_footer_top_logo">
+                                <img src="assets/images/logo.png" alt="">
+                                <p class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-ptb30">Your Dream , Our Expertise.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-0 col-lg-12 col-xl-1 col-xxl-1 col-md-0 col-sm-0 ps-0 d-md-none d-sm-none d-lg-block d-xl-block  d-xxl-block"></div>
+                        <div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nb-mtp ">
+                            <div class="nbv2_footer_top_link">
+                                <h4 class="nb-f24 nb-fw7 nb-wcl nb-ffh pb-5">Pages</h4>
+                                <ul class="ps-0">
+                                    <li><a href="./index.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Mistakes To Avoid"><span class="nb_animation_text_linksp">Home</span></a>
+                                    </li>
+                                    <li><a href="./service-details.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Your Startup"><span class="nb_animation_text_linksp">Services</span></a>
+                                    </li>
+                                    <li><a href="./about.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Knew About Fonts"><span class="nb_animation_text_linksp">About</span></a>
+                                    </li>
+                                    <li><a href="./contact.html" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Winning Metric "><span class="nb_animation_text_linksp">Contact Us</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-0 col-lg-12 col-xl-1 col-xxl-1 col-md-0 col-sm-0 ps-0 d-md-none d-sm-none d-lg-block d-xl-block  d-xxl-block"></div>
+                        <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nb-mtp">
+                            <div class="nbv2_footer_top_link">
+                                <h4 class="nb-f24 nb-fw7 nb-wcl nb-ffh pb-5">Social</h4>
+                                <ul class="ps-0">
+                                    <li><a href="https://www.instagram.com/net.nobel/" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Teahnical"><span
+                                            class="nb_animation_text_linksp">Instagram</span></a></li>
+                                    <li><a href="https://www.linkedin.com/company/net-nobel" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb "
+                                           data-replace="Traslation"><span
+                                            class="nb_animation_text_linksp">LinkedIn</span></a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 nb-mtp">
+                            <div class="nbv2_footer_top_post">
+                                <h4 class="nb-f24 nb-fw7 nb-wcl nb-ffh pb-5">Recent Post</h4>
+                                <div class="nbv2_footer_rl_post d-flex align-items-center justify-content-between gap-3 mb-4">
+                                    <div class="nbv2_footer_rl_post_img">
+                                        <img src="assets/images/footer1.png" alt="">
+                                    </div>
+                                    <div class="nbv2_footer_rl_post_content">
+                                        <a href="#" class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-hbra">
+                                            Crafting Creativity Beyond Boundarie
+                                        </a>
+                                        <p class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-ahbr">October 19, 2022</p>
+                                    </div>
+                                </div>
+                                <div class="nbv2_footer_rl_post d-flex align-items-center justify-content-between gap-3 mb-4">
+                                    <div class="nbv2_footer_rl_post_img">
+                                        <img src="assets/images/footer2.png" alt="">
+                                    </div>
+                                    <div class="nbv2_footer_rl_post_content">
+                                        <a href="#" class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-hbra">
+                                            Crafting Creativity Beyond Boundarie
+                                        </a>
+                                        <p><a href="#" class="nb-f16 nb-fw4 nb-bcl nb-ffb nb-ahbr">October 19, 2022</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nbv2_footer_bottom d-flex justify-content-between nb-ptb30 nb-dw nb-cr">
+                    <p class="nb-f16 nb-fw4 nb-bcl nb-ffb">© Net Nobel 2024 | All Rights Reserved</p>
+                    <div class="nbv2_footer_bottom_link d-flex justify-content-between gap-3 nb-dw nb-ac">
+                        <a href="#" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb"
+                           data-replace="Trams & Condition"> <span
+                                class="nb_animation_text_linksp">Trams & Condition</span></a>
+                        <a href="#" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb"
+                           data-replace="Privacy Policy"> <span
+                                class="nb_animation_text_linksp">Privacy Policy</span></a>
+                        <a href="#" class="nb_animation_text_link nb-f16 nb-fw4 nb-bcl nb-ffb" data-replace="Sitemap">
+                            <span class="nb_animation_text_linksp">Sitemap</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section End  -->
+    </div>
+</div>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/lity.min.js"></script>
+<script src="assets/js/count.js"></script>
+
+<script src="assets/js/marquee.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html>
